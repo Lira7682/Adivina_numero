@@ -1,0 +1,10 @@
+print (" ")
+print ("Lira Hernandez Dayana Yamileth:programa que adivina el numero que se ingreso")
+print (" ")
+
+g = 5   #valor de la variable
+numero = int(input("ingresa un numero"))#instruccion para ingresar un numero
+if (g == numero):  #if inicia las opciones a mostrar segun el numero ingresado
+    print("el numero es correcto")#print declara si el numero es verdadero
+else : #else muestra si el numero es incorrecto
+    print("el numero es incorrecto")  #print declara si el numero es falso
